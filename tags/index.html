@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Tag: web, 鹿鹿迷路了i">
+    <meta name="keywords" content="Tags, 鹿鹿迷路了i">
     <meta name="description" content="能把喜欢的东西留在身边，这就是你努力的意义">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -19,7 +19,7 @@
 
     
 
-    <title>Tag: web | 鹿鹿迷路了i</title>
+    <title>Tags | 鹿鹿迷路了i</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -422,7 +422,7 @@
         <div class="brand">
             <div class="title center-align">
                 
-                   
+                   tags
                 
            </div>
 
@@ -478,7 +478,7 @@
                 
                 <a href="/tags/web/" title="web: 1">
                     <span class="chip center-align waves-effect waves-light
-                             chip-active "
+                             chip-default "
                             data-tagname="web" style="background-color: #F9EBEA;">web
                         <span class="tag-length">1</span>
                     </span>
@@ -490,43 +490,32 @@
 </div>
 
     
+    <link rel="stylesheet" type="text/css" href="/libs/jqcloud/jqcloud.css">
+<style type="text/css">
+    #tag-wordcloud {
+        width: 100%;
+        height: 300px;
+    }
+</style>
 
-    <article id="articles" class="container articles">
-        <div class="row tags-posts">
-            
-            
-            <div class="article tag-post col s12 m6 l4" data-tags="web" data-aos="fade-up">
-                <div class="card">
-                    <a href="/2022/04/12/%E6%9C%80%E5%BF%AB%E9%80%9F%E5%9C%B0%E6%90%AD%E5%BB%BA%E7%BB%9A%E4%B8%BD%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99or%E5%8D%9A%E5%AE%A2/">
-                        <div class="card-image tag-image">
-                            
-                            
-                            <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="最快速地搭建绚丽的个人网站or博客">
-                            
-                            <span class="card-title">最快速地搭建绚丽的个人网站or博客</span>
-                        </div>
-                    </a>
-                    <div class="card-content article-content">
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-04-12
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fas fa-user fa-fw"></i>
-                                孟书帆
-                                
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    </article>
+<div class="container" data-aos="fade-up">
+    <div class="card">
+        <div id="tag-wordcloud" class="card-content"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/libs/jqcloud/jqcloud-1.0.4.min.js"></script>
+<script type="text/javascript">
+    
+
+    $('#tag-wordcloud').jQCloud([{"text":"web","weight":1,"link":"/tags/web/"}], {
+        autoResize: true
+    });
+</script>
+
+    
+
 </main>
-
-
 
 
     <footer class="page-footer bg-color">
